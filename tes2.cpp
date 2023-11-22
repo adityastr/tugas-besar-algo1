@@ -5,7 +5,7 @@ using namespace std;
 
 int main(){
 
-    string nama, asalSekolah, tempatLahir, tglLahir, bulanLahir, tahunLahir, nik, nisn,input;
+    string nama, asalSekolah, tempatLahir, tglLahir, bulanLahir, tahunLahir, nik, nisn,input, jurusanSMA;
     int jenjang;
 
     cout << "\n\n============================================================";
@@ -218,7 +218,7 @@ int main(){
             cout << "\nKetik [Ya] untuk kembali, Ketik [Tidak] untuk keluar : ";
             cin >> input;
 
-            if(input == "Ya" || input == "ya"){
+            if(input=="ya"||input=="YA"||input=="Ya"){
                 goto pilih;
             }else{
                 break;
@@ -229,7 +229,7 @@ int main(){
             cout << "\nKetik [Ya] untuk kembali, Ketik [Tidak] untuk keluar : ";
             cin >> input;
 
-            if(input == "Ya" || input == "ya"){
+            if(input=="ya"||input=="YA"||input=="Ya"){
                 goto pilih;
             }else{
                 break;
@@ -247,8 +247,9 @@ int main(){
     cout<<"\n5. SMPN 05 BEKASI: ";
     cout << "\nMasukan angka [1,2,3,4,5]: ";
     cin>>sekolahSMP;
-
-    cout << "\n=====================================\n\n";
+    if (sekolahSMP==1||sekolahSMP==2||sekolahSMP==3||sekolahSMP==4||sekolahSMP==5)
+    {
+      cout << "\n=====================================\n\n";
     
         //Pilih Jalur Pendaftaran
     cout<<"Pilih jalur penerimaan";
@@ -410,7 +411,7 @@ int main(){
             cout << "\nKetik [Ya] untuk kembali, Ketik [Tidak] untuk keluar : ";
             cin >> input;
 
-            if(input == "Ya" || input == "ya"){
+            if(input=="ya"||input=="YA"||input=="Ya"){
                 goto pilih;
             }else{
                 break;
@@ -421,7 +422,7 @@ int main(){
             cout << "\nKetik [Ya] untuk kembali, Ketik [Tidak] untuk keluar : ";
             cin >> input;
 
-            if(input == "Ya" || input == "ya"){
+            if(input=="ya"||input=="YA"||input=="Ya"){
                 goto pilih;
             }else{
                 break;
@@ -569,7 +570,7 @@ int main(){
             cout << "\nKetik [Ya] untuk kembali, Ketik [Tidak] untuk keluar : ";
             cin >> input;
 
-            if(input == "Ya" || input == "ya"){
+            if(input=="ya"||input=="YA"||input=="Ya"){
                 goto pilih;
             }else{
                 break;
@@ -667,7 +668,7 @@ int main(){
             cout << "\nKetik [Ya] untuk kembali, Ketik [Tidak] untuk keluar : ";
             cin >> input;
 
-            if(input == "Ya" || input == "ya"){
+            if(input=="ya"||input=="YA"||input=="Ya"){
                 goto pilih;
             }else{
                 break;
@@ -681,7 +682,7 @@ int main(){
             cout << "\nKetik [Ya] untuk kembali, Ketik [Tidak] untuk keluar : ";
             cin >> input;
 
-            if(input == "Ya" || input == "ya"){
+            if(input=="ya"||input=="YA"||input=="Ya"){
                 goto pilih;
             }else{
                 break;
@@ -692,7 +693,7 @@ int main(){
             cout << "\nKetik [Ya] untuk kembali, Ketik [Tidak] untuk keluar : ";
             cin >> input;
 
-            if(input == "Ya" || input == "ya"){
+            if(input=="ya"||input=="YA"||input=="Ya"){
                 goto pilih;
             }else{
                 break;
@@ -786,7 +787,7 @@ int main(){
             cout << "\nKetik [Ya] untuk kembali, Ketik [Tidak] untuk keluar : ";
             cin >> input;
 
-            if(input == "Ya" || input == "ya"){
+            if(input=="ya"||input=="YA"||input=="Ya"){
                 goto pilih;
             }else{
                 break;
@@ -800,7 +801,7 @@ int main(){
             cout << "\nKetik [Ya] untuk kembali, Ketik [Tidak] untuk keluar : ";
             cin >> input;
 
-            if(input == "Ya" || input == "ya"){
+            if(input=="ya"||input=="YA"||input=="Ya"){
                 goto pilih;
             }else{
                 break;
@@ -811,7 +812,7 @@ int main(){
             cout << "\nKetik [Ya] untuk kembali, Ketik [Tidak] untuk keluar : ";
             cin >> input;
 
-            if(input == "Ya" || input == "ya"){
+            if(input=="ya"||input=="YA"||input=="Ya"){
                 goto pilih;
             }else{
                 break;
@@ -904,7 +905,7 @@ int main(){
             cout << "\nKetik [Ya] untuk kembali, Ketik [Tidak] untuk keluar : ";
             cin >> input;
 
-            if(input == "Ya" || input == "ya"){
+            if(input=="ya"||input=="YA"||input=="Ya"){
                 goto pilih;
             }else{
                 break;
@@ -918,7 +919,7 @@ int main(){
             cout << "\nKetik [Ya] untuk kembali, Ketik [Tidak] untuk keluar : ";
             cin >> input;
 
-            if(input == "Ya" || input == "ya"){
+            if(input=="ya"||input=="YA"||input=="Ya"){
                 goto pilih;
             }else{
                 break;
@@ -929,7 +930,7 @@ int main(){
             cout << "\nKetik [Ya] untuk kembali, Ketik [Tidak] untuk keluar : ";
             cin >> input;
 
-            if(input == "Ya" || input == "ya"){
+            if(input=="ya"||input=="YA"||input=="Ya"){
                 goto pilih;
             }else{
                 break;
@@ -1024,7 +1025,7 @@ int main(){
             cout << "\nKetik [Ya] untuk kembali, Ketik [Tidak] untuk keluar : ";
             cin >> input;
 
-            if(input == "Ya" || input == "ya"){
+            if(input=="ya"||input=="YA"||input=="Ya"){
                 goto pilih;
             }else{
                 break;
@@ -1038,7 +1039,7 @@ int main(){
             cout << "\nKetik [Ya] untuk kembali, Ketik [Tidak] untuk keluar : ";
             cin >> input;
 
-            if(input == "Ya" || input == "ya"){
+            if(input=="ya"||input=="YA"||input=="Ya"){
                 goto pilih;
             }else{
                 break;
@@ -1049,7 +1050,7 @@ int main(){
             cout << "\nKetik [Ya] untuk kembali, Ketik [Tidak] untuk keluar : ";
             cin >> input;
 
-            if(input == "Ya" || input == "ya"){
+            if(input=="ya"||input=="YA"||input=="Ya"){
                 goto pilih;
             }else{
                 break;
@@ -1144,7 +1145,7 @@ int main(){
             cout << "\nKetik [Ya] untuk kembali, Ketik [Tidak] untuk keluar : ";
             cin >> input;
 
-            if(input == "Ya" || input == "ya"){
+            if(input=="ya"||input=="YA"||input=="Ya"){
                 goto pilih;
             }else{
                 break;
@@ -1158,7 +1159,7 @@ int main(){
             cout << "\nKetik [Ya] untuk kembali, Ketik [Tidak] untuk keluar : ";
             cin >> input;
 
-            if(input == "Ya" || input == "ya"){
+            if(input=="ya"||input=="YA"||input=="Ya"){
                 goto pilih;
             }else{
                 break;
@@ -1169,7 +1170,7 @@ int main(){
             cout << "\nKetik [Ya] untuk kembali, Ketik [Tidak] untuk keluar : ";
             cin >> input;
 
-            if(input == "Ya" || input == "ya"){
+            if(input=="ya"||input=="YA"||input=="Ya"){
                 goto pilih;
             }else{
                 break;
@@ -1184,7 +1185,7 @@ int main(){
             cout << "\nKetik [Ya] untuk kembali, Ketik [Tidak] untuk keluar : ";
             cin >> input;
 
-            if(input == "Ya" || input == "ya"){
+            if(input=="ya"||input=="YA"||input=="Ya"){
                 goto pilih;
             }else{
                 break;
@@ -1199,17 +1200,31 @@ int main(){
             cout << "\nKetik [Ya] untuk kembali, Ketik [Tidak] untuk keluar : ";
             cin >> input;
 
-            if(input == "Ya" || input == "ya"){
+            if(input=="ya"||input=="YA"||input=="Ya"){
                 goto pilih;
             }else{
                 break;
             }
         }
+    }
+            //Jika tidak ada yang dipilih        
+    else{            
+            cout << "\n\nDaftar lagi atau selesai";
+            cout << "\nKetik [Ya] untuk kembali, Ketik [Tidak] untuk keluar : ";
+            cin >> input;
+
+            if(input=="ya"||input=="YA"||input=="Ya"){
+                goto pilih;
+            }else{
+                break;
+            }
+    }        
 
         //jenjang SMA
         case 3:
     int jalurSMA, sekolahSMA, nilaiSMA;
     float jarakSma;
+
     cout << "\n=====================================";
     cout<<"\n\nPilih sekolah tujuan: ";
     cout<<"\n1. SMAN 01 BEKASI: ";
@@ -1220,8 +1235,16 @@ int main(){
     cout << "\nMasukan angka [1,2,3,4,5]: ";
     cin>>sekolahSMA;
 
+    if (sekolahSMA==1||sekolahSMA==2||sekolahSMA==3||sekolahSMA==4||sekolahSMA==5)
+    {    
+    cout << "\n=====================================\n\n";
+    cout << "Pilih jurusan [Ketik (IPA/IPS)] = ";
+    cin >> jurusanSMA;
     cout << "\n=====================================\n\n";
     
+            //Jurusan IPA
+        if(jurusanSMA == "IPA" || jurusanSMA == "ipa"){
+
         //Pilih Jalur Pendaftaran
     cout<<"Pilih jalur penerimaan";
     cout<<"\n1. Zonasi";
@@ -1248,6 +1271,7 @@ int main(){
             cout<<"Tgl lahir : "<<tglLahir<<" "<<bulanLahir<<" "<<tahunLahir<<endl;
             cout<<"Sekolah terakhir : "<<asalSekolah<<endl;
             cout<<"Tujuan Sekolah : SMAN 01 BEKASI";
+            cout<<"\nJurusan : " << jurusanSMA;
             cout<<"\nKami nyatakan LULUS !!!";
             
         }
@@ -1260,6 +1284,7 @@ int main(){
             cout<<tglLahir<<" "<<bulanLahir<<" "<<tahunLahir<<endl;
             cout<<"Sekolah terakhir : "<<asalSekolah<<endl;
             cout<<"Tujuan Sekolah : SMAN 01 BEKASI";
+            cout<<"\nJurusan : " << jurusanSMA;
             cout<<"\nkami nyatakan TIDAK LULUS !!!!";
         }
         
@@ -1278,6 +1303,7 @@ int main(){
             cout<<"Tgl lahir : "<<tglLahir<<" "<<bulanLahir<<" "<<tahunLahir<<endl;
             cout<<"Sekolah terakhir : "<<asalSekolah<<endl;
             cout<<"Tujuan Sekolah : SMAN 02 BEKASI";
+            cout<<"\nJurusan : " << jurusanSMA;
             cout<<"\nKami nyatakan LULUS !!!";
             
         }else{
@@ -1289,6 +1315,7 @@ int main(){
             cout<<tglLahir<<" "<<bulanLahir<<" "<<tahunLahir<<endl;
             cout<<"Sekolah terakhir : "<<asalSekolah<<endl;
             cout<<"Tujuan Sekolah : SMAN 02 BEKASI";
+            cout<<"\nJurusan : " << jurusanSMA;
             cout<<"\nkami nyatakan TIDAK LULUS !!!!";
         }
         }
@@ -1306,6 +1333,7 @@ int main(){
             cout<<"Tgl lahir : "<<tglLahir<<" "<<bulanLahir<<" "<<tahunLahir<<endl;
             cout<<"Sekolah terakhir : "<<asalSekolah<<endl;
             cout<<"Tujuan Sekolah : SMAN 03 BEKASI";
+            cout<<"\nJurusan : " << jurusanSMA;
             cout<<"\nKami nyatakan LULUS !!!";
             
         }else{
@@ -1317,6 +1345,7 @@ int main(){
             cout<<tglLahir<<" "<<bulanLahir<<" "<<tahunLahir<<endl;
             cout<<"Sekolah terakhir : "<<asalSekolah<<endl;
             cout<<"Tujuan Sekolah : SMAN 03 BEKASI";
+            cout<<"\nJurusan : " << jurusanSMA;
             cout<<"\nkami nyatakan TIDAK LULUS !!!!";
         }
         }
@@ -1334,6 +1363,7 @@ int main(){
             cout<<"Tgl lahir : "<<tglLahir<<" "<<bulanLahir<<" "<<tahunLahir<<endl;
             cout<<"Sekolah terakhir : "<<asalSekolah<<endl;
             cout<<"Tujuan Sekolah : SMAN 04 BEKASI";
+            cout<<"\nJurusan : " << jurusanSMA;
             cout<<"\nKami nyatakan LULUS !!!";
             
         }else{
@@ -1345,6 +1375,7 @@ int main(){
             cout<<tglLahir<<" "<<bulanLahir<<" "<<tahunLahir<<endl;
             cout<<"Sekolah terakhir : "<<asalSekolah<<endl;
             cout<<"Tujuan Sekolah : SMAN 04 BEKASI";
+            cout<<"\nJurusan : " << jurusanSMA;
             cout<<"\nkami nyatakan TIDAK LULUS !!!!";
         }
         }
@@ -1362,6 +1393,7 @@ int main(){
             cout<<"Tgl lahir : "<<tglLahir<<" "<<bulanLahir<<" "<<tahunLahir<<endl;
             cout<<"Sekolah terakhir : "<<asalSekolah<<endl;
             cout<<"Tujuan Sekolah : SMAN 05 BEKASI";
+            cout<<"\nJurusan : " << jurusanSMA;
             cout<<"\nKami nyatakan LULUS !!!";
             
         }else{
@@ -1373,13 +1405,13 @@ int main(){
             cout<<tglLahir<<" "<<bulanLahir<<" "<<tahunLahir<<endl;
             cout<<"Sekolah terakhir : "<<asalSekolah<<endl;
             cout<<"Tujuan Sekolah : SMAN 05 BEKASI";
+            cout<<"\nJurusan : " << jurusanSMA;
             cout<<"\nkami nyatakan TIDAK LULUS !!!!";
         }
         }
-
+}
         //jalur nilai
         else if (jalurSMA==2){
-            
                         //Pilihan ke 1
          if(sekolahSMA == 1){
         cout << "\n\nMasukan Rara-rata Nilai rapot anda : ";
@@ -1393,6 +1425,7 @@ int main(){
             cout<<"Tgl lahir : "<<tglLahir<<" "<<bulanLahir<<" "<<tahunLahir<<endl;
             cout<<"Sekolah terakhir : "<<asalSekolah<<endl;
             cout<<"Tujuan Sekolah : SMAN 01 BEKASI";
+            cout<<"\nJurusan : " << jurusanSMA;
             cout<<"\nKami nyatakan LULUS !!!";
             
         }else{
@@ -1403,11 +1436,12 @@ int main(){
             cout<<tglLahir<<" "<<bulanLahir<<" "<<tahunLahir<<endl;
             cout<<"Sekolah terakhir : "<<asalSekolah<<endl;
             cout<<"Tujuan Sekolah : SMAN 01 BEKASI";
+            cout<<"\nJurusan : " << jurusanSMA;
             cout<<"\nkami nyatakan TIDAK LULUS !!!!";
         }
         
     }
-            //Pilihan ke 2
+                        //Pilihan ke 2
     else if(sekolahSMA == 2){
 
         cout << "\n\nMasukan Rara-rata Nilai rapot anda : ";
@@ -1421,6 +1455,7 @@ int main(){
             cout<<"Tgl lahir : "<<tglLahir<<" "<<bulanLahir<<" "<<tahunLahir<<endl;
             cout<<"Sekolah terakhir : "<<asalSekolah<<endl;
             cout<<"Tujuan Sekolah : SMAN 02 BEKASI";
+            cout<<"\nJurusan : " << jurusanSMA;
             cout<<"\nKami nyatakan LULUS !!!";
             
         }else{
@@ -1431,16 +1466,16 @@ int main(){
             cout<<tglLahir<<" "<<bulanLahir<<" "<<tahunLahir<<endl;
             cout<<"Sekolah terakhir : "<<asalSekolah<<endl;
             cout<<"Tujuan Sekolah : SMAN 02 BEKASI";
+            cout<<"\nJurusan : " << jurusanSMA;
             cout<<"\nkami nyatakan TIDAK LULUS !!!!";
         }
         
     }   
-            
-            //Pilihan ke 3
+                        //Pilihan ke 3
     else if(sekolahSMA == 3){
         cout << "\n\nMasukan Rara-rata Nilai rapot anda : ";
         cin >> nilaiSMA;
-        if (nilai >= 85){
+        if (nilaiSMA >= 85){
             cout<<"\nHASIL SELEKSI PESERTA DIDIK";
             cout<<"\nNama : "<<nama<<endl;
             cout<<"NISN : "<<nisn<<endl;
@@ -1448,6 +1483,7 @@ int main(){
             cout<<"Tgl lahir : "<<tglLahir<<" "<<bulanLahir<<" "<<tahunLahir<<endl;
             cout<<"Sekolah terakhir : "<<asalSekolah<<endl;
             cout<<"Tujuan Sekolah : SMAN 03 BEKASI";
+            cout<<"\nJurusan : " << jurusanSMA;
             cout<<"\nKami nyatakan LULUS !!!";
             
         }else{
@@ -1458,6 +1494,7 @@ int main(){
             cout<<tglLahir<<" "<<bulanLahir<<" "<<tahunLahir<<endl;
             cout<<"Sekolah terakhir : "<<asalSekolah<<endl;
             cout<<"Tujuan Sekolah : SMAN 03 BEKASI";
+            cout<<"\nJurusan : " << jurusanSMA;
             cout<<"\nkami nyatakan TIDAK LULUS !!!!";
         }
     
@@ -1474,6 +1511,7 @@ int main(){
             cout<<"Tgl lahir : "<<tglLahir<<" "<<bulanLahir<<" "<<tahunLahir<<endl;
             cout<<"Sekolah terakhir : "<<asalSekolah<<endl;
             cout<<"Tujuan Sekolah : SMAN 04 BEKASI";
+            cout<<"\nJurusan : " << jurusanSMA;
             cout<<"\nKami nyatakan LULUS !!!";
             
         }else{
@@ -1484,6 +1522,7 @@ int main(){
             cout<<tglLahir<<" "<<bulanLahir<<" "<<tahunLahir<<endl;
             cout<<"Sekolah terakhir : "<<asalSekolah<<endl;
             cout<<"Tujuan Sekolah : SMAN 04 BEKASI";
+            cout<<"\nJurusan : " << jurusanSMA;
             cout<<"\nkami nyatakan TIDAK LULUS !!!!";
         }
     
@@ -1500,6 +1539,7 @@ int main(){
             cout<<"Tgl lahir : "<<tglLahir<<" "<<bulanLahir<<" "<<tahunLahir<<endl;
             cout<<"Sekolah terakhir : "<<asalSekolah<<endl;
             cout<<"Tujuan Sekolah : SMAN 05 BEKASI";
+            cout<<"\nJurusan : " << jurusanSMA;
             cout<<"\nKami nyatakan LULUS !!!";
             
         }else{
@@ -1510,6 +1550,7 @@ int main(){
             cout<<tglLahir<<" "<<bulanLahir<<" "<<tahunLahir<<endl;
             cout<<"Sekolah terakhir : "<<asalSekolah<<endl;
             cout<<"Tujuan Sekolah : SMAN 05 BEKASI";
+            cout<<"\nJurusan : " << jurusanSMA;
             cout<<"\nkami nyatakan TIDAK LULUS !!!!";
         }
     
@@ -1519,43 +1560,18 @@ int main(){
             cout << "\nKetik [Ya] untuk kembali, Ketik [Tidak] untuk keluar : ";
             cin >> input;
 
-            if(input == "Ya" || input == "ya"){
+            if(input=="ya"||input=="YA"||input=="Ya"){
                 goto pilih;
             }else{
                 break;
             }
-    }
-
-                        //Jika tidak ada yang dipilih        
-        else{
-            cout << "\n\nInput salah silahkan coba lagi";
-            cout << "\nKetik [Ya] untuk kembali, Ketik [Tidak] untuk keluar : ";
-            cin >> input;
-
-            if(input == "Ya" || input == "ya"){
-                goto pilih;
-            }else{
-                break;
             }
-        }
-                        //Daftar lagi atau selesai
-            cout << "\n\nDaftar lagi atau selesai";
-            cout << "\nKetik [Ya] untuk kembali, Ketik [Tidak] untuk keluar : ";
-            cin >> input;
-
-            if(input == "Ya" || input == "ya"){
-                goto pilih;
-            }else{
-                break;
-            }
-        }
 
             //Jalur Prestasi
-        else if(jalur == 3){
-            
+        else if(jalurSMA == 3){
             //Pilihan ke 1
             int tingkatPrestasiSMA, prestasiSMA;
-         if(sekolahSMA == 1){
+         if(sekolahSMA  == 1){
             cout << "\n\nPrestasi apa yang anda dapatkan : ";
             cout<<"\n1. Akademik";
             cout<<"\n2. Non Akademik";
@@ -1584,6 +1600,7 @@ int main(){
             cout<<tglLahir<<" "<<bulanLahir<<" "<<tahunLahir<<endl;
             cout<<"Sekolah terakhir : "<<asalSekolah<<endl;
             cout<<"Tujuan Sekolah : SMAN 01 BEKASI";
+            cout<<"\nJurusan : " << jurusanSMA;
             cout<<"\nkami nyatakan TIDAK LULUS !!!!";
             }
 
@@ -1596,6 +1613,7 @@ int main(){
             cout<<tglLahir<<" "<<bulanLahir<<" "<<tahunLahir<<endl;
             cout<<"Sekolah terakhir : "<<asalSekolah<<endl;
             cout<<"Tujuan Sekolah : SMAN 01 BEKASI";
+            cout<<"\nJurusan : " << jurusanSMA;
             cout<<"\nkami nyatakan TIDAK LULUS !!!!";
             }
 
@@ -1608,6 +1626,7 @@ int main(){
             cout<<"Tgl lahir : "<<tglLahir<<" "<<bulanLahir<<" "<<tahunLahir<<endl;
             cout<<"Sekolah terakhir : "<<asalSekolah<<endl;
             cout<<"Tujuan Sekolah : SMAN 01 BEKASI";
+            cout<<"\nJurusan : " << jurusanSMA;
             cout<<"\nKami nyatakan LULUS !!!";
             }
 
@@ -1620,6 +1639,7 @@ int main(){
             cout<<"Tgl lahir : "<<tglLahir<<" "<<bulanLahir<<" "<<tahunLahir<<endl;
             cout<<"Sekolah terakhir : "<<asalSekolah<<endl;
             cout<<"Tujuan Sekolah : SMAN 01 BEKASI";
+            cout<<"\nJurusan : " << jurusanSMA;
             cout<<"\nKami nyatakan LULUS !!!";
             }
 
@@ -1632,6 +1652,7 @@ int main(){
             cout<<"Tgl lahir : "<<tglLahir<<" "<<bulanLahir<<" "<<tahunLahir<<endl;
             cout<<"Sekolah terakhir : "<<asalSekolah<<endl;
             cout<<"Tujuan Sekolah : SMAN 01 BEKASI";
+            cout<<"\nJurusan : " << jurusanSMA;
             cout<<"\nKami nyatakan LULUS !!!";
             }
 
@@ -1641,7 +1662,7 @@ int main(){
             cout << "\nKetik [Ya] untuk kembali, Ketik [Tidak] untuk keluar : ";
             cin >> input;
 
-            if(input == "Ya" || input == "ya"){
+            if(input=="ya"||input=="YA"||input=="Ya"){
                 goto pilih;
             }else{
                 break;
@@ -1655,7 +1676,7 @@ int main(){
             cout << "\nKetik [Ya] untuk kembali, Ketik [Tidak] untuk keluar : ";
             cin >> input;
 
-            if(input == "Ya" || input == "ya"){
+            if(input=="ya"||input=="YA"||input=="Ya"){
                 goto pilih;
             }else{
                 break;
@@ -1666,7 +1687,7 @@ int main(){
             cout << "\nKetik [Ya] untuk kembali, Ketik [Tidak] untuk keluar : ";
             cin >> input;
 
-            if(input == "Ya" || input == "ya"){
+            if(input=="ya"||input=="YA"||input=="Ya"){
                 goto pilih;
             }else{
                 break;
@@ -1703,6 +1724,7 @@ int main(){
             cout<<tglLahir<<" "<<bulanLahir<<" "<<tahunLahir<<endl;
             cout<<"Sekolah terakhir : "<<asalSekolah<<endl;
             cout<<"Tujuan Sekolah : SMAN 02 BEKASI";
+            cout<<"\nJurusan : " << jurusanSMA;
             cout<<"\nkami nyatakan TIDAK LULUS !!!!";
             }
 
@@ -1715,6 +1737,7 @@ int main(){
             cout<<tglLahir<<" "<<bulanLahir<<" "<<tahunLahir<<endl;
             cout<<"Sekolah terakhir : "<<asalSekolah<<endl;
             cout<<"Tujuan Sekolah : SMAN 02 BEKASI";
+            cout<<"\nJurusan : " << jurusanSMA;
             cout<<"\nkami nyatakan TIDAK LULUS !!!!";
             }
 
@@ -1727,6 +1750,7 @@ int main(){
             cout<<"Tgl lahir : "<<tglLahir<<" "<<bulanLahir<<" "<<tahunLahir<<endl;
             cout<<"Sekolah terakhir : "<<asalSekolah<<endl;
             cout<<"Tujuan Sekolah : SMAN 02 BEKASI";
+            cout<<"\nJurusan : " << jurusanSMA;
             cout<<"\nKami nyatakan LULUS !!!";
             }
 
@@ -1739,6 +1763,7 @@ int main(){
             cout<<"Tgl lahir : "<<tglLahir<<" "<<bulanLahir<<" "<<tahunLahir<<endl;
             cout<<"Sekolah terakhir : "<<asalSekolah<<endl;
             cout<<"Tujuan Sekolah : SMAN 02 BEKASI";
+            cout<<"\nJurusan : " << jurusanSMA;
             cout<<"\nKami nyatakan LULUS !!!";
             }
 
@@ -1751,6 +1776,7 @@ int main(){
             cout<<"Tgl lahir : "<<tglLahir<<" "<<bulanLahir<<" "<<tahunLahir<<endl;
             cout<<"Sekolah terakhir : "<<asalSekolah<<endl;
             cout<<"Tujuan Sekolah : SMAN 02 BEKASI";
+            cout<<"\nJurusan : " << jurusanSMA;
             cout<<"\nKami nyatakan LULUS !!!";
             }
 
@@ -1760,7 +1786,7 @@ int main(){
             cout << "\nKetik [Ya] untuk kembali, Ketik [Tidak] untuk keluar : ";
             cin >> input;
 
-            if(input == "Ya" || input == "ya"){
+            if(input=="ya"||input=="YA"||input=="Ya"){
                 goto pilih;
             }else{
                 break;
@@ -1774,7 +1800,7 @@ int main(){
             cout << "\nKetik [Ya] untuk kembali, Ketik [Tidak] untuk keluar : ";
             cin >> input;
 
-            if(input == "Ya" || input == "ya"){
+            if(input=="ya"||input=="YA"||input=="Ya"){
                 goto pilih;
             }else{
                 break;
@@ -1785,7 +1811,7 @@ int main(){
             cout << "\nKetik [Ya] untuk kembali, Ketik [Tidak] untuk keluar : ";
             cin >> input;
 
-            if(input == "Ya" || input == "ya"){
+            if(input=="ya"||input=="YA"||input=="Ya"){
                 goto pilih;
             }else{
                 break;
@@ -1821,6 +1847,7 @@ int main(){
             cout<<tglLahir<<" "<<bulanLahir<<" "<<tahunLahir<<endl;
             cout<<"Sekolah terakhir : "<<asalSekolah<<endl;
             cout<<"Tujuan Sekolah : SMAN 03 BEKASI";
+            cout<<"\nJurusan : " << jurusanSMA;
             cout<<"\nkami nyatakan TIDAK LULUS !!!!";
             }
 
@@ -1833,6 +1860,7 @@ int main(){
             cout<<tglLahir<<" "<<bulanLahir<<" "<<tahunLahir<<endl;
             cout<<"Sekolah terakhir : "<<asalSekolah<<endl;
             cout<<"Tujuan Sekolah : SMAN 03 BEKASI";
+            cout<<"\nJurusan : " << jurusanSMA;
             cout<<"\nkami nyatakan TIDAK LULUS !!!!";
             }
 
@@ -1845,6 +1873,7 @@ int main(){
             cout<<"Tgl lahir : "<<tglLahir<<" "<<bulanLahir<<" "<<tahunLahir<<endl;
             cout<<"Sekolah terakhir : "<<asalSekolah<<endl;
             cout<<"Tujuan Sekolah : SMAN 03 BEKASI";
+            cout<<"\nJurusan : " << jurusanSMA;
             cout<<"\nKami nyatakan LULUS !!!";
             }
 
@@ -1857,6 +1886,7 @@ int main(){
             cout<<"Tgl lahir : "<<tglLahir<<" "<<bulanLahir<<" "<<tahunLahir<<endl;
             cout<<"Sekolah terakhir : "<<asalSekolah<<endl;
             cout<<"Tujuan Sekolah : SMAN 03 BEKASI";
+            cout<<"\nJurusan : " << jurusanSMA;
             cout<<"\nKami nyatakan LULUS !!!";
             }
 
@@ -1869,6 +1899,7 @@ int main(){
             cout<<"Tgl lahir : "<<tglLahir<<" "<<bulanLahir<<" "<<tahunLahir<<endl;
             cout<<"Sekolah terakhir : "<<asalSekolah<<endl;
             cout<<"Tujuan Sekolah : SMAN 03 BEKASI";
+            cout<<"\nJurusan : " << jurusanSMA;
             cout<<"\nKami nyatakan LULUS !!!";
             }
 
@@ -1878,7 +1909,7 @@ int main(){
             cout << "\nKetik [Ya] untuk kembali, Ketik [Tidak] untuk keluar : ";
             cin >> input;
 
-            if(input == "Ya" || input == "ya"){
+            if(input=="ya"||input=="YA"||input=="Ya"){
                 goto pilih;
             }else{
                 break;
@@ -1892,7 +1923,7 @@ int main(){
             cout << "\nKetik [Ya] untuk kembali, Ketik [Tidak] untuk keluar : ";
             cin >> input;
 
-            if(input == "Ya" || input == "ya"){
+            if(input=="ya"||input=="YA"||input=="Ya"){
                 goto pilih;
             }else{
                 break;
@@ -1903,7 +1934,7 @@ int main(){
             cout << "\nKetik [Ya] untuk kembali, Ketik [Tidak] untuk keluar : ";
             cin >> input;
 
-            if(input == "Ya" || input == "ya"){
+            if(input=="ya"||input=="YA"||input=="Ya"){
                 goto pilih;
             }else{
                 break;
@@ -1941,6 +1972,7 @@ int main(){
             cout<<tglLahir<<" "<<bulanLahir<<" "<<tahunLahir<<endl;
             cout<<"Sekolah terakhir : "<<asalSekolah<<endl;
             cout<<"Tujuan Sekolah : SMAN 04 BEKASI";
+            cout<<"\nJurusan : " << jurusanSMA;
             cout<<"\nkami nyatakan TIDAK LULUS !!!!";
             }
 
@@ -1953,6 +1985,7 @@ int main(){
             cout<<tglLahir<<" "<<bulanLahir<<" "<<tahunLahir<<endl;
             cout<<"Sekolah terakhir : "<<asalSekolah<<endl;
             cout<<"Tujuan Sekolah : SMAN 04 BEKASI";
+            cout<<"\nJurusan : " << jurusanSMA;
             cout<<"\nkami nyatakan TIDAK LULUS !!!!";
             }
 
@@ -1965,6 +1998,7 @@ int main(){
             cout<<"Tgl lahir : "<<tglLahir<<" "<<bulanLahir<<" "<<tahunLahir<<endl;
             cout<<"Sekolah terakhir : "<<asalSekolah<<endl;
             cout<<"Tujuan Sekolah : SMAN 04 BEKASI";
+            cout<<"\nJurusan : " << jurusanSMA;
             cout<<"\nKami nyatakan LULUS !!!";
             }
 
@@ -1977,6 +2011,7 @@ int main(){
             cout<<"Tgl lahir : "<<tglLahir<<" "<<bulanLahir<<" "<<tahunLahir<<endl;
             cout<<"Sekolah terakhir : "<<asalSekolah<<endl;
             cout<<"Tujuan Sekolah : SMAN 04 BEKASI";
+            cout<<"\nJurusan : " << jurusanSMA;
             cout<<"\nKami nyatakan LULUS !!!";
             }
 
@@ -1989,6 +2024,7 @@ int main(){
             cout<<"Tgl lahir : "<<tglLahir<<" "<<bulanLahir<<" "<<tahunLahir<<endl;
             cout<<"Sekolah terakhir : "<<asalSekolah<<endl;
             cout<<"Tujuan Sekolah : SMAN 04 BEKASI";
+            cout<<"\nJurusan : " << jurusanSMA;
             cout<<"\nKami nyatakan LULUS !!!";
             }
 
@@ -1998,7 +2034,7 @@ int main(){
             cout << "\nKetik [Ya] untuk kembali, Ketik [Tidak] untuk keluar : ";
             cin >> input;
 
-            if(input == "Ya" || input == "ya"){
+            if(input=="ya"||input=="YA"||input=="Ya"){
                 goto pilih;
             }else{
                 break;
@@ -2012,7 +2048,7 @@ int main(){
             cout << "\nKetik [Ya] untuk kembali, Ketik [Tidak] untuk keluar : ";
             cin >> input;
 
-            if(input == "Ya" || input == "ya"){
+            if(input=="ya"||input=="YA"||input=="Ya"){
                 goto pilih;
             }else{
                 break;
@@ -2023,7 +2059,7 @@ int main(){
             cout << "\nKetik [Ya] untuk kembali, Ketik [Tidak] untuk keluar : ";
             cin >> input;
 
-            if(input == "Ya" || input == "ya"){
+            if(input=="ya"||input=="YA"||input=="Ya"){
                 goto pilih;
             }else{
                 break;
@@ -2033,7 +2069,7 @@ int main(){
 
             //Pilihan ke 5
             else if(sekolahSMA == 5){
-            cout << "\n\nPrestasi apa yang anda dapatkan : ";
+                            cout << "\n\nPrestasi apa yang anda dapatkan : ";
             cout<<"\n1. Akademik";
             cout<<"\n2. Non Akademik";
             cout<<"\nMasukan angka [1,2] : ";
@@ -2061,6 +2097,7 @@ int main(){
             cout<<tglLahir<<" "<<bulanLahir<<" "<<tahunLahir<<endl;
             cout<<"Sekolah terakhir : "<<asalSekolah<<endl;
             cout<<"Tujuan Sekolah : SMAN 05 BEKASI";
+            cout<<"\nJurusan : " << jurusanSMA;
             cout<<"\nkami nyatakan TIDAK LULUS !!!!";
             }
 
@@ -2073,6 +2110,7 @@ int main(){
             cout<<tglLahir<<" "<<bulanLahir<<" "<<tahunLahir<<endl;
             cout<<"Sekolah terakhir : "<<asalSekolah<<endl;
             cout<<"Tujuan Sekolah : SMAN 05 BEKASI";
+            cout<<"\nJurusan : " << jurusanSMA;
             cout<<"\nkami nyatakan TIDAK LULUS !!!!";
             }
 
@@ -2085,6 +2123,7 @@ int main(){
             cout<<"Tgl lahir : "<<tglLahir<<" "<<bulanLahir<<" "<<tahunLahir<<endl;
             cout<<"Sekolah terakhir : "<<asalSekolah<<endl;
             cout<<"Tujuan Sekolah : SMAN 05 BEKASI";
+            cout<<"\nJurusan : " << jurusanSMA;
             cout<<"\nKami nyatakan LULUS !!!";
             }
 
@@ -2097,6 +2136,7 @@ int main(){
             cout<<"Tgl lahir : "<<tglLahir<<" "<<bulanLahir<<" "<<tahunLahir<<endl;
             cout<<"Sekolah terakhir : "<<asalSekolah<<endl;
             cout<<"Tujuan Sekolah : SMAN 05 BEKASI";
+            cout<<"\nJurusan : " << jurusanSMA;
             cout<<"\nKami nyatakan LULUS !!!";
             }
 
@@ -2109,6 +2149,7 @@ int main(){
             cout<<"Tgl lahir : "<<tglLahir<<" "<<bulanLahir<<" "<<tahunLahir<<endl;
             cout<<"Sekolah terakhir : "<<asalSekolah<<endl;
             cout<<"Tujuan Sekolah : SMAN 05 BEKASI";
+            cout<<"\nJurusan : " << jurusanSMA;
             cout<<"\nKami nyatakan LULUS !!!";
             }
 
@@ -2118,7 +2159,7 @@ int main(){
             cout << "\nKetik [Ya] untuk kembali, Ketik [Tidak] untuk keluar : ";
             cin >> input;
 
-            if(input == "Ya" || input == "ya"){
+            if(input=="ya"||input=="YA"||input=="Ya"){
                 goto pilih;
             }else{
                 break;
@@ -2132,7 +2173,7 @@ int main(){
             cout << "\nKetik [Ya] untuk kembali, Ketik [Tidak] untuk keluar : ";
             cin >> input;
 
-            if(input == "Ya" || input == "ya"){
+            if(input=="ya"||input=="YA"||input=="Ya"){
                 goto pilih;
             }else{
                 break;
@@ -2143,7 +2184,7 @@ int main(){
             cout << "\nKetik [Ya] untuk kembali, Ketik [Tidak] untuk keluar : ";
             cin >> input;
 
-            if(input == "Ya" || input == "ya"){
+            if(input=="ya"||input=="YA"||input=="Ya"){
                 goto pilih;
             }else{
                 break;
@@ -2158,14 +2199,993 @@ int main(){
             cout << "\nKetik [Ya] untuk kembali, Ketik [Tidak] untuk keluar : ";
             cin >> input;
 
-            if(input == "Ya" || input == "ya"){
+            if(input=="ya"||input=="YA"||input=="Ya"){
+                goto pilih;
+            }else{
+                break;
+            }
+        }
+            }
+    }
+            //Jurusan IPS
+        else if(jurusanSMA == "IPS" || jurusanSMA == "ips"){
+        //Pilih Jalur Pendaftaran
+    cout<<"Pilih jalur penerimaan";
+    cout<<"\n1. Zonasi";
+    cout<<"\n2. Nilai";
+    cout<<"\n3. Prestasi";
+    cout << "\nMasukan angka [1,2,3] : ";
+    cin>>jalurSMA;
+    cout << "\n=====================================";
+
+            //Jalur Zonasi    
+        if (jalurSMA==1){
+                        
+            //Pilihan ke 1
+        if(sekolahSMA == 1)
+    {
+        cout<<"\n\njarak rumah menuju sekolah (KM) : ";
+        cin>>jarakSma;
+        if (jarakSma<=20)
+        {
+            cout<<"\nHASIL SELEKSI PESERTA DIDIK";
+            cout<<"\nNama : "<<nama<<endl;
+            cout<<"NISN : "<<nisn<<endl;
+            cout<<"NIK : "<<nik<<endl;
+            cout<<"Tgl lahir : "<<tglLahir<<" "<<bulanLahir<<" "<<tahunLahir<<endl;
+            cout<<"Sekolah terakhir : "<<asalSekolah<<endl;
+            cout<<"Tujuan Sekolah : SMAN 01 BEKASI";
+            cout<<"\nJurusan : " << jurusanSMA;
+            cout<<"\nKami nyatakan LULUS !!!";
+            
+        }
+        else
+        {
+            cout<<"\n\nHASIL SELEKSI PESERTA DIDIK";
+            cout<<"\nNama : "<<nama<<endl;
+            cout<<"NISN : "<<nisn<<endl;
+            cout<<"NIK : "<<nik<<endl;
+            cout<<tglLahir<<" "<<bulanLahir<<" "<<tahunLahir<<endl;
+            cout<<"Sekolah terakhir : "<<asalSekolah<<endl;
+            cout<<"Tujuan Sekolah : SMAN 01 BEKASI";
+            cout<<"\nJurusan : " << jurusanSMA;
+            cout<<"\nkami nyatakan TIDAK LULUS !!!!";
+        }
+        
+    }
+                //Pilihan ke 2    
+        else if(sekolahSMA == 2){
+
+        cout<<"\n\njarak rumah menuju sekolah (KM) : ";
+        cin>>jarakSma;
+        if (jarakSma<=20){
+
+            cout<<"\nHASIL SELEKSI PESERTA DIDIK";
+            cout<<"\nNama : "<<nama<<endl;
+            cout<<"NISN : "<<nisn<<endl;
+            cout<<"NIK : "<<nik<<endl;
+            cout<<"Tgl lahir : "<<tglLahir<<" "<<bulanLahir<<" "<<tahunLahir<<endl;
+            cout<<"Sekolah terakhir : "<<asalSekolah<<endl;
+            cout<<"Tujuan Sekolah : SMAN 02 BEKASI";
+            cout<<"\nJurusan : " << jurusanSMA;
+            cout<<"\nKami nyatakan LULUS !!!";
+            
+        }else{
+
+            cout<<"\n\nHASIL SELEKSI PESERTA DIDIK";
+            cout<<"\nNama : "<<nama<<endl;
+            cout<<"NISN : "<<nisn<<endl;
+            cout<<"NIK : "<<nik<<endl;
+            cout<<tglLahir<<" "<<bulanLahir<<" "<<tahunLahir<<endl;
+            cout<<"Sekolah terakhir : "<<asalSekolah<<endl;
+            cout<<"Tujuan Sekolah : SMAN 02 BEKASI";
+            cout<<"\nJurusan : " << jurusanSMA;
+            cout<<"\nkami nyatakan TIDAK LULUS !!!!";
+        }
+        }
+                        //Pilihan ke 3        
+        else if(sekolahSMA == 3){
+
+        cout<<"\n\njarak rumah menuju sekolah (KM) : ";
+        cin>>jarakSma;
+        if (jarakSma<=20){
+
+            cout<<"\nHASIL SELEKSI PESERTA DIDIK";
+            cout<<"\nNama : "<<nama<<endl;
+            cout<<"NISN : "<<nisn<<endl;
+            cout<<"NIK : "<<nik<<endl;
+            cout<<"Tgl lahir : "<<tglLahir<<" "<<bulanLahir<<" "<<tahunLahir<<endl;
+            cout<<"Sekolah terakhir : "<<asalSekolah<<endl;
+            cout<<"Tujuan Sekolah : SMAN 03 BEKASI";
+            cout<<"\nJurusan : " << jurusanSMA;
+            cout<<"\nKami nyatakan LULUS !!!";
+            
+        }else{
+            
+            cout<<"\n\nHASIL SELEKSI PESERTA DIDIK";
+            cout<<"\nNama : "<<nama<<endl;
+            cout<<"NISN : "<<nisn<<endl;
+            cout<<"NIK : "<<nik<<endl;
+            cout<<tglLahir<<" "<<bulanLahir<<" "<<tahunLahir<<endl;
+            cout<<"Sekolah terakhir : "<<asalSekolah<<endl;
+            cout<<"Tujuan Sekolah : SMAN 03 BEKASI";
+            cout<<"\nJurusan : " << jurusanSMA;
+            cout<<"\nkami nyatakan TIDAK LULUS !!!!";
+        }
+        }
+                        //Pilihan ke 4        
+        else if(sekolahSMA == 4){
+
+        cout<<"\n\njarak rumah menuju sekolah (KM) : ";
+        cin>>jarakSma;
+        if (jarakSma<=20){
+
+            cout<<"\nHASIL SELEKSI PESERTA DIDIK";
+            cout<<"\nNama : "<<nama<<endl;
+            cout<<"NISN : "<<nisn<<endl;
+            cout<<"NIK : "<<nik<<endl;
+            cout<<"Tgl lahir : "<<tglLahir<<" "<<bulanLahir<<" "<<tahunLahir<<endl;
+            cout<<"Sekolah terakhir : "<<asalSekolah<<endl;
+            cout<<"Tujuan Sekolah : SMAN 04 BEKASI";
+            cout<<"\nJurusan : " << jurusanSMA;
+            cout<<"\nKami nyatakan LULUS !!!";
+            
+        }else{
+            
+            cout<<"\n\nHASIL SELEKSI PESERTA DIDIK";
+            cout<<"\nNama : "<<nama<<endl;
+            cout<<"NISN : "<<nisn<<endl;
+            cout<<"NIK : "<<nik<<endl;
+            cout<<tglLahir<<" "<<bulanLahir<<" "<<tahunLahir<<endl;
+            cout<<"Sekolah terakhir : "<<asalSekolah<<endl;
+            cout<<"Tujuan Sekolah : SMAN 04 BEKASI";
+            cout<<"\nJurusan : " << jurusanSMA;
+            cout<<"\nkami nyatakan TIDAK LULUS !!!!";
+        }
+        }
+                        //Pilihan ke 5
+        else if(sekolahSMA == 5){
+
+        cout<<"\n\njarak rumah menuju sekolah (KM) : ";
+        cin>>jarakSma;
+        if (jarakSma<=20){
+
+            cout<<"\nHASIL SELEKSI PESERTA DIDIK";
+            cout<<"\nNama : "<<nama<<endl;
+            cout<<"NISN : "<<nisn<<endl;
+            cout<<"NIK : "<<nik<<endl;
+            cout<<"Tgl lahir : "<<tglLahir<<" "<<bulanLahir<<" "<<tahunLahir<<endl;
+            cout<<"Sekolah terakhir : "<<asalSekolah<<endl;
+            cout<<"Tujuan Sekolah : SMAN 05 BEKASI";
+            cout<<"\nJurusan : " << jurusanSMA;
+            cout<<"\nKami nyatakan LULUS !!!";
+            
+        }else{
+            
+            cout<<"\n\nHASIL SELEKSI PESERTA DIDIK";
+            cout<<"\nNama : "<<nama<<endl;
+            cout<<"NISN : "<<nisn<<endl;
+            cout<<"NIK : "<<nik<<endl;
+            cout<<tglLahir<<" "<<bulanLahir<<" "<<tahunLahir<<endl;
+            cout<<"Sekolah terakhir : "<<asalSekolah<<endl;
+            cout<<"Tujuan Sekolah : SMAN 05 BEKASI";
+            cout<<"\nJurusan : " << jurusanSMA;
+            cout<<"\nkami nyatakan TIDAK LULUS !!!!";
+        }
+        }
+}
+        //jalur nilai
+        else if (jalurSMA==2){
+                        //Pilihan ke 1
+         if(sekolahSMA == 1){
+        cout << "\n\nMasukan Rara-rata Nilai rapot anda : ";
+        cin >> nilaiSMA;
+
+        if (nilaiSMA >= 85){
+            cout<<"\nHASIL SELEKSI PESERTA DIDIK";
+            cout<<"\nNama : "<<nama<<endl;
+            cout<<"NISN : "<<nisn<<endl;
+            cout<<"NIK : "<<nik<<endl;
+            cout<<"Tgl lahir : "<<tglLahir<<" "<<bulanLahir<<" "<<tahunLahir<<endl;
+            cout<<"Sekolah terakhir : "<<asalSekolah<<endl;
+            cout<<"Tujuan Sekolah : SMAN 01 BEKASI";
+            cout<<"\nJurusan : " << jurusanSMA;
+            cout<<"\nKami nyatakan LULUS !!!";
+            
+        }else{
+            cout<<"\n\nHASIL SELEKSI PESERTA DIDIK";
+            cout<<"\nNama : "<<nama<<endl;
+            cout<<"NISN : "<<nisn<<endl;
+            cout<<"NIK : "<<nik<<endl;
+            cout<<tglLahir<<" "<<bulanLahir<<" "<<tahunLahir<<endl;
+            cout<<"Sekolah terakhir : "<<asalSekolah<<endl;
+            cout<<"Tujuan Sekolah : SMAN 01 BEKASI";
+            cout<<"\nJurusan : " << jurusanSMA;
+            cout<<"\nkami nyatakan TIDAK LULUS !!!!";
+        }
+        
+    }
+                        //Pilihan ke 2
+    else if(sekolahSMA == 2){
+
+        cout << "\n\nMasukan Rara-rata Nilai rapot anda : ";
+        cin >> nilaiSMA;
+
+        if (nilaiSMA >= 85){
+            cout<<"\nHASIL SELEKSI PESERTA DIDIK";
+            cout<<"\nNama : "<<nama<<endl;
+            cout<<"NISN : "<<nisn<<endl;
+            cout<<"NIK : "<<nik<<endl;
+            cout<<"Tgl lahir : "<<tglLahir<<" "<<bulanLahir<<" "<<tahunLahir<<endl;
+            cout<<"Sekolah terakhir : "<<asalSekolah<<endl;
+            cout<<"Tujuan Sekolah : SMAN 02 BEKASI";
+            cout<<"\nJurusan : " << jurusanSMA;
+            cout<<"\nKami nyatakan LULUS !!!";
+            
+        }else{
+            cout<<"\n\nHASIL SELEKSI PESERTA DIDIK";
+            cout<<"\nNama : "<<nama<<endl;
+            cout<<"NISN : "<<nisn<<endl;
+            cout<<"NIK : "<<nik<<endl;
+            cout<<tglLahir<<" "<<bulanLahir<<" "<<tahunLahir<<endl;
+            cout<<"Sekolah terakhir : "<<asalSekolah<<endl;
+            cout<<"Tujuan Sekolah : SMAN 02 BEKASI";
+            cout<<"\nJurusan : " << jurusanSMA;
+            cout<<"\nkami nyatakan TIDAK LULUS !!!!";
+        }
+        
+    }   
+                        //Pilihan ke 3
+    else if(sekolahSMA == 3){
+        cout << "\n\nMasukan Rara-rata Nilai rapot anda : ";
+        cin >> nilaiSMA;
+        if (nilaiSMA >= 85){
+            cout<<"\nHASIL SELEKSI PESERTA DIDIK";
+            cout<<"\nNama : "<<nama<<endl;
+            cout<<"NISN : "<<nisn<<endl;
+            cout<<"NIK : "<<nik<<endl;
+            cout<<"Tgl lahir : "<<tglLahir<<" "<<bulanLahir<<" "<<tahunLahir<<endl;
+            cout<<"Sekolah terakhir : "<<asalSekolah<<endl;
+            cout<<"Tujuan Sekolah : SMAN 03 BEKASI";
+            cout<<"\nJurusan : " << jurusanSMA;
+            cout<<"\nKami nyatakan LULUS !!!";
+            
+        }else{
+            cout<<"\n\nHASIL SELEKSI PESERTA DIDIK";
+            cout<<"\nNama : "<<nama<<endl;
+            cout<<"NISN : "<<nisn<<endl;
+            cout<<"NIK : "<<nik<<endl;
+            cout<<tglLahir<<" "<<bulanLahir<<" "<<tahunLahir<<endl;
+            cout<<"Sekolah terakhir : "<<asalSekolah<<endl;
+            cout<<"Tujuan Sekolah : SMAN 03 BEKASI";
+            cout<<"\nJurusan : " << jurusanSMA;
+            cout<<"\nkami nyatakan TIDAK LULUS !!!!";
+        }
+    
+    }
+                        //Pilihan ke 4
+    else if(sekolahSMA == 4){
+        cout << "\n\nMasukan Rara-rata Nilai rapot anda : ";
+        cin >> nilaiSMA;
+        if (nilaiSMA >= 85){
+            cout<<"\nHASIL SELEKSI PESERTA DIDIK";
+            cout<<"\nNama : "<<nama<<endl;
+            cout<<"NISN : "<<nisn<<endl;
+            cout<<"NIK : "<<nik<<endl;
+            cout<<"Tgl lahir : "<<tglLahir<<" "<<bulanLahir<<" "<<tahunLahir<<endl;
+            cout<<"Sekolah terakhir : "<<asalSekolah<<endl;
+            cout<<"Tujuan Sekolah : SMAN 04 BEKASI";
+            cout<<"\nJurusan : " << jurusanSMA;
+            cout<<"\nKami nyatakan LULUS !!!";
+            
+        }else{
+            cout<<"\n\nHASIL SELEKSI PESERTA DIDIK";
+            cout<<"\nNama : "<<nama<<endl;
+            cout<<"NISN : "<<nisn<<endl;
+            cout<<"NIK : "<<nik<<endl;
+            cout<<tglLahir<<" "<<bulanLahir<<" "<<tahunLahir<<endl;
+            cout<<"Sekolah terakhir : "<<asalSekolah<<endl;
+            cout<<"Tujuan Sekolah : SMAN 04 BEKASI";
+            cout<<"\nJurusan : " << jurusanSMA;
+            cout<<"\nkami nyatakan TIDAK LULUS !!!!";
+        }
+    
+    }
+                        //Pilihan ke 5
+    else if(sekolahSMA == 5){
+        cout << "\n\nMasukan Rara-rata Nilai rapot anda : ";
+        cin >> nilaiSMA;
+        if (nilaiSMA >= 85){
+            cout<<"\nHASIL SELEKSI PESERTA DIDIK";
+            cout<<"\nNama : "<<nama<<endl;
+            cout<<"NISN : "<<nisn<<endl;
+            cout<<"NIK : "<<nik<<endl;
+            cout<<"Tgl lahir : "<<tglLahir<<" "<<bulanLahir<<" "<<tahunLahir<<endl;
+            cout<<"Sekolah terakhir : "<<asalSekolah<<endl;
+            cout<<"Tujuan Sekolah : SMAN 05 BEKASI";
+            cout<<"\nJurusan : " << jurusanSMA;
+            cout<<"\nKami nyatakan LULUS !!!";
+            
+        }else{
+            cout<<"\n\nHASIL SELEKSI PESERTA DIDIK";
+            cout<<"\nNama : "<<nama<<endl;
+            cout<<"NISN : "<<nisn<<endl;
+            cout<<"NIK : "<<nik<<endl;
+            cout<<tglLahir<<" "<<bulanLahir<<" "<<tahunLahir<<endl;
+            cout<<"Sekolah terakhir : "<<asalSekolah<<endl;
+            cout<<"Tujuan Sekolah : SMAN 05 BEKASI";
+            cout<<"\nJurusan : " << jurusanSMA;
+            cout<<"\nkami nyatakan TIDAK LULUS !!!!";
+        }
+    
+    }
+                        //Daftar lagi atau selesai
+            cout << "\n\nDaftar lagi atau selesai";
+            cout << "\nKetik [Ya] untuk kembali, Ketik [Tidak] untuk keluar : ";
+            cin >> input;
+
+            if(input=="ya"||input=="YA"||input=="Ya"){
+                goto pilih;
+            }else{
+                break;
+            }
+            }
+
+            //Jalur Prestasi
+        else if(jalurSMA == 3){
+            //Pilihan ke 1
+            int tingkatPrestasiSMA, prestasiSMA;
+         if(sekolahSMA  == 1){
+            cout << "\n\nPrestasi apa yang anda dapatkan : ";
+            cout<<"\n1. Akademik";
+            cout<<"\n2. Non Akademik";
+            cout<<"\nMasukan angka [1,2] : ";
+            cin>>prestasiSMA;
+            cout << endl;
+            cout << "\n=====================================\n";
+
+                //Pilih Tingkat Prestasi
+            if(prestasiSMA == 1 || prestasiSMA == 2){
+            cout<<"\nTingkat prestasi yang didapat : ";
+            cout<<"\n1. Kelurahan";
+            cout<<"\n2. Kecamatan";
+            cout<<"\n3. Kota";
+            cout<<"\n4. Provinsi";
+            cout<<"\n5. Nasional";
+            cout<<"\nMasukan angka [1,2,3,4,5] : ";
+            cin>>tingkatPrestasiSMA;
+            cout << "\n=====================================";
+            //kelurahan
+        if(tingkatPrestasiSMA==1){
+            cout<<"\n\nHASIL SELEKSI PESERTA DIDIK";
+            cout<<"\nNama : "<<nama<<endl;
+            cout<<"NISN : "<<nisn<<endl;
+            cout<<"NIK : "<<nik<<endl;
+            cout<<tglLahir<<" "<<bulanLahir<<" "<<tahunLahir<<endl;
+            cout<<"Sekolah terakhir : "<<asalSekolah<<endl;
+            cout<<"Tujuan Sekolah : SMAN 01 BEKASI";
+            cout<<"\nJurusan : " << jurusanSMA;
+            cout<<"\nkami nyatakan TIDAK LULUS !!!!";
+            }
+
+            //Kecamatan
+            else if(tingkatPrestasiSMA == 2){
+            cout<<"\n\nHASIL SELEKSI PESERTA DIDIK";
+            cout<<"\nNama : "<<nama<<endl;
+            cout<<"NISN : "<<nisn<<endl;
+            cout<<"NIK : "<<nik<<endl;
+            cout<<tglLahir<<" "<<bulanLahir<<" "<<tahunLahir<<endl;
+            cout<<"Sekolah terakhir : "<<asalSekolah<<endl;
+            cout<<"Tujuan Sekolah : SMAN 01 BEKASI";
+            cout<<"\nJurusan : " << jurusanSMA;
+            cout<<"\nkami nyatakan TIDAK LULUS !!!!";
+            }
+
+            //Kota
+            else if(tingkatPrestasiSMA == 3){
+            cout<<"\nHASIL SELEKSI PESERTA DIDIK";
+            cout<<"\nNama : "<<nama<<endl;
+            cout<<"NISN : "<<nisn<<endl;
+            cout<<"NIK : "<<nik<<endl;
+            cout<<"Tgl lahir : "<<tglLahir<<" "<<bulanLahir<<" "<<tahunLahir<<endl;
+            cout<<"Sekolah terakhir : "<<asalSekolah<<endl;
+            cout<<"Tujuan Sekolah : SMAN 01 BEKASI";
+            cout<<"\nJurusan : " << jurusanSMA;
+            cout<<"\nKami nyatakan LULUS !!!";
+            }
+
+            //Provinsi
+            else if(tingkatPrestasiSMA == 4){
+            cout<<"\nHASIL SELEKSI PESERTA DIDIK";
+            cout<<"\nNama : "<<nama<<endl;
+            cout<<"NISN : "<<nisn<<endl;
+            cout<<"NIK : "<<nik<<endl;
+            cout<<"Tgl lahir : "<<tglLahir<<" "<<bulanLahir<<" "<<tahunLahir<<endl;
+            cout<<"Sekolah terakhir : "<<asalSekolah<<endl;
+            cout<<"Tujuan Sekolah : SMAN 01 BEKASI";
+            cout<<"\nJurusan : " << jurusanSMA;
+            cout<<"\nKami nyatakan LULUS !!!";
+            }
+
+            //Nasional
+            else if(tingkatPrestasiSMA == 5){
+            cout<<"\nHASIL SELEKSI PESERTA DIDIK";
+            cout<<"\nNama : "<<nama<<endl;
+            cout<<"NISN : "<<nisn<<endl;
+            cout<<"NIK : "<<nik<<endl;
+            cout<<"Tgl lahir : "<<tglLahir<<" "<<bulanLahir<<" "<<tahunLahir<<endl;
+            cout<<"Sekolah terakhir : "<<asalSekolah<<endl;
+            cout<<"Tujuan Sekolah : SMAN 01 BEKASI";
+            cout<<"\nJurusan : " << jurusanSMA;
+            cout<<"\nKami nyatakan LULUS !!!";
+            }
+
+                        //Jika tidak ada yang dipilih        
+        else{
+            cout << "\n\nInput salah silahkan coba lagi";
+            cout << "\nKetik [Ya] untuk kembali, Ketik [Tidak] untuk keluar : ";
+            cin >> input;
+
+            if(input=="ya"||input=="YA"||input=="Ya"){
                 goto pilih;
             }else{
                 break;
             }
         }
 
+            }
+                        //Jika tidak ada yang dipilih        
+        else{
+            cout << "\n\nInput salah silahkan coba lagi";
+            cout << "\nKetik [Ya] untuk kembali, Ketik [Tidak] untuk keluar : ";
+            cin >> input;
+
+            if(input=="ya"||input=="YA"||input=="Ya"){
+                goto pilih;
+            }else{
+                break;
+            }
         }
+                        //Daftar lagi atau selesai
+            cout << "\n\nDaftar lagi atau selesai";
+            cout << "\nKetik [Ya] untuk kembali, Ketik [Tidak] untuk keluar : ";
+            cin >> input;
+
+            if(input=="ya"||input=="YA"||input=="Ya"){
+                goto pilih;
+            }else{
+                break;
+            }            
+
+
+                //Pilihan ke 2
+         }else if(sekolahSMA == 2){
+            cout << "\n\nPrestasi apa yang anda dapatkan : ";
+            cout<<"\n1. Akademik";
+            cout<<"\n2. Non Akademik";
+            cout<<"\nMasukan angka [1,2] : ";
+            cin>>prestasiSMA;
+            cout << endl;
+            cout << "\n=====================================\n";
+
+                //Pilih Tingkat Prestasi
+            if(prestasiSMA == 1 || prestasiSMA == 2){
+            cout<<"\nTingkat prestasi yang didapat : ";
+            cout<<"\n1. Kelurahan";
+            cout<<"\n2. Kecamatan";
+            cout<<"\n3. Kota";
+            cout<<"\n4. Provinsi";
+            cout<<"\n5. Nasional";
+            cout<<"\nMasukan angka [1,2,3,4,5] : ";
+            cin>>tingkatPrestasiSMA;
+            cout << "\n=====================================";
+            //kelurahan
+        if(tingkatPrestasiSMA==1){
+            cout<<"\n\nHASIL SELEKSI PESERTA DIDIK";
+            cout<<"\nNama : "<<nama<<endl;
+            cout<<"NISN : "<<nisn<<endl;
+            cout<<"NIK : "<<nik<<endl;
+            cout<<tglLahir<<" "<<bulanLahir<<" "<<tahunLahir<<endl;
+            cout<<"Sekolah terakhir : "<<asalSekolah<<endl;
+            cout<<"Tujuan Sekolah : SMAN 02 BEKASI";
+            cout<<"\nJurusan : " << jurusanSMA;
+            cout<<"\nkami nyatakan TIDAK LULUS !!!!";
+            }
+
+            //Kecamatan
+            else if(tingkatPrestasiSMA == 2){
+            cout<<"\n\nHASIL SELEKSI PESERTA DIDIK";
+            cout<<"\nNama : "<<nama<<endl;
+            cout<<"NISN : "<<nisn<<endl;
+            cout<<"NIK : "<<nik<<endl;
+            cout<<tglLahir<<" "<<bulanLahir<<" "<<tahunLahir<<endl;
+            cout<<"Sekolah terakhir : "<<asalSekolah<<endl;
+            cout<<"Tujuan Sekolah : SMAN 02 BEKASI";
+            cout<<"\nJurusan : " << jurusanSMA;
+            cout<<"\nkami nyatakan TIDAK LULUS !!!!";
+            }
+
+            //Kota
+            else if(tingkatPrestasiSMA == 3){
+            cout<<"\nHASIL SELEKSI PESERTA DIDIK";
+            cout<<"\nNama : "<<nama<<endl;
+            cout<<"NISN : "<<nisn<<endl;
+            cout<<"NIK : "<<nik<<endl;
+            cout<<"Tgl lahir : "<<tglLahir<<" "<<bulanLahir<<" "<<tahunLahir<<endl;
+            cout<<"Sekolah terakhir : "<<asalSekolah<<endl;
+            cout<<"Tujuan Sekolah : SMAN 02 BEKASI";
+            cout<<"\nJurusan : " << jurusanSMA;
+            cout<<"\nKami nyatakan LULUS !!!";
+            }
+
+            //Provinsi
+            else if(tingkatPrestasiSMA == 4){
+            cout<<"\nHASIL SELEKSI PESERTA DIDIK";
+            cout<<"\nNama : "<<nama<<endl;
+            cout<<"NISN : "<<nisn<<endl;
+            cout<<"NIK : "<<nik<<endl;
+            cout<<"Tgl lahir : "<<tglLahir<<" "<<bulanLahir<<" "<<tahunLahir<<endl;
+            cout<<"Sekolah terakhir : "<<asalSekolah<<endl;
+            cout<<"Tujuan Sekolah : SMAN 02 BEKASI";
+            cout<<"\nJurusan : " << jurusanSMA;
+            cout<<"\nKami nyatakan LULUS !!!";
+            }
+
+            //Nasional
+            else if(tingkatPrestasiSMA == 5){
+            cout<<"\nHASIL SELEKSI PESERTA DIDIK";
+            cout<<"\nNama : "<<nama<<endl;
+            cout<<"NISN : "<<nisn<<endl;
+            cout<<"NIK : "<<nik<<endl;
+            cout<<"Tgl lahir : "<<tglLahir<<" "<<bulanLahir<<" "<<tahunLahir<<endl;
+            cout<<"Sekolah terakhir : "<<asalSekolah<<endl;
+            cout<<"Tujuan Sekolah : SMAN 02 BEKASI";
+            cout<<"\nJurusan : " << jurusanSMA;
+            cout<<"\nKami nyatakan LULUS !!!";
+            }
+
+                        //Jika tidak ada yang dipilih        
+        else{
+            cout << "\n\nInput salah silahkan coba lagi";
+            cout << "\nKetik [Ya] untuk kembali, Ketik [Tidak] untuk keluar : ";
+            cin >> input;
+
+            if(input=="ya"||input=="YA"||input=="Ya"){
+                goto pilih;
+            }else{
+                break;
+            }
+        }
+
+            }
+                        //Jika tidak ada yang dipilih        
+        else{
+            cout << "\n\nInput salah silahkan coba lagi";
+            cout << "\nKetik [Ya] untuk kembali, Ketik [Tidak] untuk keluar : ";
+            cin >> input;
+
+            if(input=="ya"||input=="YA"||input=="Ya"){
+                goto pilih;
+            }else{
+                break;
+            }
+        }
+                        //Daftar lagi atau selesai
+            cout << "\n\nDaftar lagi atau selesai";
+            cout << "\nKetik [Ya] untuk kembali, Ketik [Tidak] untuk keluar : ";
+            cin >> input;
+
+            if(input=="ya"||input=="YA"||input=="Ya"){
+                goto pilih;
+            }else{
+                break;
+            }
+
+            //Pilihan ke 3
+         }else if(sekolahSMA == 3){
+            cout << "\n\nPrestasi apa yang anda dapatkan : ";
+            cout<<"\n1. Akademik";
+            cout<<"\n2. Non Akademik";
+            cout<<"\nMasukan angka [1,2] : ";
+            cin>>prestasiSMA;
+            cout << endl;
+            cout << "\n=====================================\n";
+
+                //Pilih Tingkat Prestasi
+            if(prestasiSMA == 1 || prestasiSMA == 2){
+            cout<<"\nTingkat prestasi yang didapat : ";
+            cout<<"\n1. Kelurahan";
+            cout<<"\n2. Kecamatan";
+            cout<<"\n3. Kota";
+            cout<<"\n4. Provinsi";
+            cout<<"\n5. Nasional";
+            cout<<"\nMasukan angka [1,2,3,4,5] : ";
+            cin>>tingkatPrestasiSMA;
+            cout << "\n=====================================";
+            //kelurahan
+        if(tingkatPrestasiSMA==1){
+            cout<<"\n\nHASIL SELEKSI PESERTA DIDIK";
+            cout<<"\nNama : "<<nama<<endl;
+            cout<<"NISN : "<<nisn<<endl;
+            cout<<"NIK : "<<nik<<endl;
+            cout<<tglLahir<<" "<<bulanLahir<<" "<<tahunLahir<<endl;
+            cout<<"Sekolah terakhir : "<<asalSekolah<<endl;
+            cout<<"Tujuan Sekolah : SMAN 03 BEKASI";
+            cout<<"\nJurusan : " << jurusanSMA;
+            cout<<"\nkami nyatakan TIDAK LULUS !!!!";
+            }
+
+            //Kecamatan
+            else if(tingkatPrestasiSMA == 2){
+            cout<<"\n\nHASIL SELEKSI PESERTA DIDIK";
+            cout<<"\nNama : "<<nama<<endl;
+            cout<<"NISN : "<<nisn<<endl;
+            cout<<"NIK : "<<nik<<endl;
+            cout<<tglLahir<<" "<<bulanLahir<<" "<<tahunLahir<<endl;
+            cout<<"Sekolah terakhir : "<<asalSekolah<<endl;
+            cout<<"Tujuan Sekolah : SMAN 03 BEKASI";
+            cout<<"\nJurusan : " << jurusanSMA;
+            cout<<"\nkami nyatakan TIDAK LULUS !!!!";
+            }
+
+            //Kota
+            else if(tingkatPrestasiSMA == 3){
+            cout<<"\nHASIL SELEKSI PESERTA DIDIK";
+            cout<<"\nNama : "<<nama<<endl;
+            cout<<"NISN : "<<nisn<<endl;
+            cout<<"NIK : "<<nik<<endl;
+            cout<<"Tgl lahir : "<<tglLahir<<" "<<bulanLahir<<" "<<tahunLahir<<endl;
+            cout<<"Sekolah terakhir : "<<asalSekolah<<endl;
+            cout<<"Tujuan Sekolah : SMAN 03 BEKASI";
+            cout<<"\nJurusan : " << jurusanSMA;
+            cout<<"\nKami nyatakan LULUS !!!";
+            }
+
+            //Provinsi
+            else if(tingkatPrestasiSMA == 4){
+            cout<<"\nHASIL SELEKSI PESERTA DIDIK";
+            cout<<"\nNama : "<<nama<<endl;
+            cout<<"NISN : "<<nisn<<endl;
+            cout<<"NIK : "<<nik<<endl;
+            cout<<"Tgl lahir : "<<tglLahir<<" "<<bulanLahir<<" "<<tahunLahir<<endl;
+            cout<<"Sekolah terakhir : "<<asalSekolah<<endl;
+            cout<<"Tujuan Sekolah : SMAN 03 BEKASI";
+            cout<<"\nJurusan : " << jurusanSMA;
+            cout<<"\nKami nyatakan LULUS !!!";
+            }
+
+            //Nasional
+            else if(tingkatPrestasiSMA == 5){
+            cout<<"\nHASIL SELEKSI PESERTA DIDIK";
+            cout<<"\nNama : "<<nama<<endl;
+            cout<<"NISN : "<<nisn<<endl;
+            cout<<"NIK : "<<nik<<endl;
+            cout<<"Tgl lahir : "<<tglLahir<<" "<<bulanLahir<<" "<<tahunLahir<<endl;
+            cout<<"Sekolah terakhir : "<<asalSekolah<<endl;
+            cout<<"Tujuan Sekolah : SMAN 03 BEKASI";
+            cout<<"\nJurusan : " << jurusanSMA;
+            cout<<"\nKami nyatakan LULUS !!!";
+            }
+
+                        //Jika tidak ada yang dipilih        
+        else{
+            cout << "\n\nInput salah silahkan coba lagi";
+            cout << "\nKetik [Ya] untuk kembali, Ketik [Tidak] untuk keluar : ";
+            cin >> input;
+
+            if(input=="ya"||input=="YA"||input=="Ya"){
+                goto pilih;
+            }else{
+                break;
+            }
+        }
+
+            }
+                        //Jika tidak ada yang dipilih        
+        else{
+            cout << "\n\nInput salah silahkan coba lagi";
+            cout << "\nKetik [Ya] untuk kembali, Ketik [Tidak] untuk keluar : ";
+            cin >> input;
+
+            if(input=="ya"||input=="YA"||input=="Ya"){
+                goto pilih;
+            }else{
+                break;
+            }
+        }
+                        //Daftar lagi atau selesai
+            cout << "\n\nDaftar lagi atau selesai";
+            cout << "\nKetik [Ya] untuk kembali, Ketik [Tidak] untuk keluar : ";
+            cin >> input;
+
+            if(input=="ya"||input=="YA"||input=="Ya"){
+                goto pilih;
+            }else{
+                break;
+            }
+
+         }
+
+            //Pilihan ke 4
+            else if(sekolahSMA == 4){
+            cout << "\n\nPrestasi apa yang anda dapatkan : ";
+            cout<<"\n1. Akademik";
+            cout<<"\n2. Non Akademik";
+            cout<<"\nMasukan angka [1,2] : ";
+            cin>>prestasiSMA;
+            cout << endl;
+            cout << "\n=====================================\n";
+
+                //Pilih Tingkat Prestasi
+            if(prestasiSMA == 1 || prestasiSMA == 2){
+            cout<<"\nTingkat prestasi yang didapat : ";
+            cout<<"\n1. Kelurahan";
+            cout<<"\n2. Kecamatan";
+            cout<<"\n3. Kota";
+            cout<<"\n4. Provinsi";
+            cout<<"\n5. Nasional";
+            cout<<"\nMasukan angka [1,2,3,4,5] : ";
+            cin>>tingkatPrestasiSMA;
+            cout << "\n=====================================";
+            //kelurahan
+        if(tingkatPrestasiSMA==1){
+            cout<<"\n\nHASIL SELEKSI PESERTA DIDIK";
+            cout<<"\nNama : "<<nama<<endl;
+            cout<<"NISN : "<<nisn<<endl;
+            cout<<"NIK : "<<nik<<endl;
+            cout<<tglLahir<<" "<<bulanLahir<<" "<<tahunLahir<<endl;
+            cout<<"Sekolah terakhir : "<<asalSekolah<<endl;
+            cout<<"Tujuan Sekolah : SMAN 04 BEKASI";
+            cout<<"\nJurusan : " << jurusanSMA;
+            cout<<"\nkami nyatakan TIDAK LULUS !!!!";
+            }
+
+            //Kecamatan
+            else if(tingkatPrestasiSMA == 2){
+            cout<<"\n\nHASIL SELEKSI PESERTA DIDIK";
+            cout<<"\nNama : "<<nama<<endl;
+            cout<<"NISN : "<<nisn<<endl;
+            cout<<"NIK : "<<nik<<endl;
+            cout<<tglLahir<<" "<<bulanLahir<<" "<<tahunLahir<<endl;
+            cout<<"Sekolah terakhir : "<<asalSekolah<<endl;
+            cout<<"Tujuan Sekolah : SMAN 04 BEKASI";
+            cout<<"\nJurusan : " << jurusanSMA;
+            cout<<"\nkami nyatakan TIDAK LULUS !!!!";
+            }
+
+            //Kota
+            else if(tingkatPrestasiSMA == 3){
+            cout<<"\nHASIL SELEKSI PESERTA DIDIK";
+            cout<<"\nNama : "<<nama<<endl;
+            cout<<"NISN : "<<nisn<<endl;
+            cout<<"NIK : "<<nik<<endl;
+            cout<<"Tgl lahir : "<<tglLahir<<" "<<bulanLahir<<" "<<tahunLahir<<endl;
+            cout<<"Sekolah terakhir : "<<asalSekolah<<endl;
+            cout<<"Tujuan Sekolah : SMAN 04 BEKASI";
+            cout<<"\nJurusan : " << jurusanSMA;
+            cout<<"\nKami nyatakan LULUS !!!";
+            }
+
+            //Provinsi
+            else if(tingkatPrestasiSMA == 4){
+            cout<<"\nHASIL SELEKSI PESERTA DIDIK";
+            cout<<"\nNama : "<<nama<<endl;
+            cout<<"NISN : "<<nisn<<endl;
+            cout<<"NIK : "<<nik<<endl;
+            cout<<"Tgl lahir : "<<tglLahir<<" "<<bulanLahir<<" "<<tahunLahir<<endl;
+            cout<<"Sekolah terakhir : "<<asalSekolah<<endl;
+            cout<<"Tujuan Sekolah : SMAN 04 BEKASI";
+            cout<<"\nJurusan : " << jurusanSMA;
+            cout<<"\nKami nyatakan LULUS !!!";
+            }
+
+            //Nasional
+            else if(tingkatPrestasiSMA == 5){
+            cout<<"\nHASIL SELEKSI PESERTA DIDIK";
+            cout<<"\nNama : "<<nama<<endl;
+            cout<<"NISN : "<<nisn<<endl;
+            cout<<"NIK : "<<nik<<endl;
+            cout<<"Tgl lahir : "<<tglLahir<<" "<<bulanLahir<<" "<<tahunLahir<<endl;
+            cout<<"Sekolah terakhir : "<<asalSekolah<<endl;
+            cout<<"Tujuan Sekolah : SMAN 04 BEKASI";
+            cout<<"\nJurusan : " << jurusanSMA;
+            cout<<"\nKami nyatakan LULUS !!!";
+            }
+
+                        //Jika tidak ada yang dipilih        
+        else{
+            cout << "\n\nInput salah silahkan coba lagi";
+            cout << "\nKetik [Ya] untuk kembali, Ketik [Tidak] untuk keluar : ";
+            cin >> input;
+
+            if(input=="ya"||input=="YA"||input=="Ya"){
+                goto pilih;
+            }else{
+                break;
+            }
+        }
+
+            }
+                        //Jika tidak ada yang dipilih        
+        else{
+            cout << "\n\nInput salah silahkan coba lagi";
+            cout << "\nKetik [Ya] untuk kembali, Ketik [Tidak] untuk keluar : ";
+            cin >> input;
+
+            if(input=="ya"||input=="YA"||input=="Ya"){
+                goto pilih;
+            }else{
+                break;
+            }
+        }
+                        //Daftar lagi atau selesai
+            cout << "\n\nDaftar lagi atau selesai";
+            cout << "\nKetik [Ya] untuk kembali, Ketik [Tidak] untuk keluar : ";
+            cin >> input;
+
+            if(input=="ya"||input=="YA"||input=="Ya"){
+                goto pilih;
+            }else{
+                break;
+            }
+
+            }
+
+            //Pilihan ke 5
+            else if(sekolahSMA == 5){
+                            cout << "\n\nPrestasi apa yang anda dapatkan : ";
+            cout<<"\n1. Akademik";
+            cout<<"\n2. Non Akademik";
+            cout<<"\nMasukan angka [1,2] : ";
+            cin>>prestasiSMA;
+            cout << endl;
+            cout << "\n=====================================\n";
+
+                //Pilih Tingkat Prestasi
+            if(prestasiSMA == 1 || prestasiSMA == 2){
+            cout<<"\nTingkat prestasi yang didapat : ";
+            cout<<"\n1. Kelurahan";
+            cout<<"\n2. Kecamatan";
+            cout<<"\n3. Kota";
+            cout<<"\n4. Provinsi";
+            cout<<"\n5. Nasional";
+            cout<<"\nMasukan angka [1,2,3,4,5] : ";
+            cin>>tingkatPrestasiSMA;
+            cout << "\n=====================================";
+            //kelurahan
+        if(tingkatPrestasiSMA==1){
+            cout<<"\n\nHASIL SELEKSI PESERTA DIDIK";
+            cout<<"\nNama : "<<nama<<endl;
+            cout<<"NISN : "<<nisn<<endl;
+            cout<<"NIK : "<<nik<<endl;
+            cout<<tglLahir<<" "<<bulanLahir<<" "<<tahunLahir<<endl;
+            cout<<"Sekolah terakhir : "<<asalSekolah<<endl;
+            cout<<"Tujuan Sekolah : SMAN 05 BEKASI";
+            cout<<"\nJurusan : " << jurusanSMA;
+            cout<<"\nkami nyatakan TIDAK LULUS !!!!";
+            }
+
+            //Kecamatan
+            else if(tingkatPrestasiSMA == 2){
+            cout<<"\n\nHASIL SELEKSI PESERTA DIDIK";
+            cout<<"\nNama : "<<nama<<endl;
+            cout<<"NISN : "<<nisn<<endl;
+            cout<<"NIK : "<<nik<<endl;
+            cout<<tglLahir<<" "<<bulanLahir<<" "<<tahunLahir<<endl;
+            cout<<"Sekolah terakhir : "<<asalSekolah<<endl;
+            cout<<"Tujuan Sekolah : SMAN 05 BEKASI";
+            cout<<"\nJurusan : " << jurusanSMA;
+            cout<<"\nkami nyatakan TIDAK LULUS !!!!";
+            }
+
+            //Kota
+            else if(tingkatPrestasiSMA == 3){
+            cout<<"\nHASIL SELEKSI PESERTA DIDIK";
+            cout<<"\nNama : "<<nama<<endl;
+            cout<<"NISN : "<<nisn<<endl;
+            cout<<"NIK : "<<nik<<endl;
+            cout<<"Tgl lahir : "<<tglLahir<<" "<<bulanLahir<<" "<<tahunLahir<<endl;
+            cout<<"Sekolah terakhir : "<<asalSekolah<<endl;
+            cout<<"Tujuan Sekolah : SMAN 05 BEKASI";
+            cout<<"\nJurusan : " << jurusanSMA;
+            cout<<"\nKami nyatakan LULUS !!!";
+            }
+
+            //Provinsi
+            else if(tingkatPrestasiSMA == 4){
+            cout<<"\nHASIL SELEKSI PESERTA DIDIK";
+            cout<<"\nNama : "<<nama<<endl;
+            cout<<"NISN : "<<nisn<<endl;
+            cout<<"NIK : "<<nik<<endl;
+            cout<<"Tgl lahir : "<<tglLahir<<" "<<bulanLahir<<" "<<tahunLahir<<endl;
+            cout<<"Sekolah terakhir : "<<asalSekolah<<endl;
+            cout<<"Tujuan Sekolah : SMAN 05 BEKASI";
+            cout<<"\nJurusan : " << jurusanSMA;
+            cout<<"\nKami nyatakan LULUS !!!";
+            }
+
+            //Nasional
+            else if(tingkatPrestasiSMA == 5){
+            cout<<"\nHASIL SELEKSI PESERTA DIDIK";
+            cout<<"\nNama : "<<nama<<endl;
+            cout<<"NISN : "<<nisn<<endl;
+            cout<<"NIK : "<<nik<<endl;
+            cout<<"Tgl lahir : "<<tglLahir<<" "<<bulanLahir<<" "<<tahunLahir<<endl;
+            cout<<"Sekolah terakhir : "<<asalSekolah<<endl;
+            cout<<"Tujuan Sekolah : SMAN 05 BEKASI";
+            cout<<"\nJurusan : " << jurusanSMA;
+            cout<<"\nKami nyatakan LULUS !!!";
+            }
+
+                        //Jika tidak ada yang dipilih        
+        else{
+            cout << "\n\nInput salah silahkan coba lagi";
+            cout << "\nKetik [Ya] untuk kembali, Ketik [Tidak] untuk keluar : ";
+            cin >> input;
+
+            if(input=="ya"||input=="YA"||input=="Ya"){
+                goto pilih;
+            }else{
+                break;
+            }
+        }
+
+            }
+                        //Jika tidak ada yang dipilih        
+        else{
+            cout << "\n\nInput salah silahkan coba lagi";
+            cout << "\nKetik [Ya] untuk kembali, Ketik [Tidak] untuk keluar : ";
+            cin >> input;
+
+            if(input=="ya"||input=="YA"||input=="Ya"){
+                goto pilih;
+            }else{
+                break;
+            }
+        }
+                        //Daftar lagi atau selesai
+            cout << "\n\nDaftar lagi atau selesai";
+            cout << "\nKetik [Ya] untuk kembali, Ketik [Tidak] untuk keluar : ";
+            cin >> input;
+
+            if(input=="ya"||input=="YA"||input=="Ya"){
+                goto pilih;
+            }else{
+                break;
+            }
+
+        }
+
+
+                         //Jika tidak ada yang dipilih        
+            else{
+            cout << "\n\nInput salah silahkan coba lagi";
+            cout << "\nKetik [Ya] untuk kembali, Ketik [Tidak] untuk keluar : ";
+            cin >> input;
+
+            if(input=="ya"||input=="YA"||input=="Ya"){
+                goto pilih;
+            }else{
+                break;
+            }
+        }
+            }
+
+        }
+            
+    }
+            //Jika tidak ada yang dipilih        
+    else{            
+            cout << "\n\nDaftar lagi atau selesai";
+            cout << "\nKetik [Ya] untuk kembali, Ketik [Tidak] untuk keluar : ";
+            cin >> input;
+
+            if(input=="ya"||input=="YA"||input=="Ya"){
+                goto pilih;
+            }else{
+                break;
+            }
+    } 
 
             default:                         
                         //Jika tidak ada yang dipilih        
@@ -2173,15 +3193,17 @@ int main(){
             cout << "\nKetik [Ya] untuk kembali, Ketik [Tidak] untuk keluar : ";
             cin >> input;
 
-            if(input == "Ya" || input == "ya"){
+            if(input=="ya"||input=="YA"||input=="Ya"){
                 goto pilih;
-            }else{
-                break;
             }
+            else{
+                break;
+            }break;
 
 
-}
+
 }    
 
 return 0;
+}
 }
