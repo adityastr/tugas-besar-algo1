@@ -7,5 +7,5 @@ tugas besar mata kuliah algoritma dan pemrograman 1
 Membuat listing program dengan tema pemerintahan
 
 Perkenalkan kami dari kelompok 4 mata kuliah algoritma dan pemrograman 1 jurusan teknik informatika universitas dian nusantara
-Muhamad Aditya Saputra (411231139)
-Muhammad Rizal Ibrahim (411231196)
+1. Muhamad Aditya Saputra (411231139)
+2. Muhammad Rizal Ibrahim (411231196)
